@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist\cssbootsstrap\bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=New+Amsterdam&display=swap" rel="stylesheet">
+  
+
+<body>
+    <div id="nav">
+    <nav class="container-fluid text-center">
+        <a href="">Work</a>
+        <a href="">About</a>
+        <a href="">CV</a>
+        <a href="">Contact</a>
+    </nav></div>
+<!-- <div style="height: 2000px;"></div> -->
+
+<div class="workContainer">
+    <div class="work"><p>E-Commerce Website</p><img class="img-fluid" src="Images/online-shopping.png" alt=""></div>
+    <div class="work"><p>E-learning Website</p><img src="Images/elearning.png" alt=""></div>
+</div><br>
+<div class="workContainer">
+    <div class="work"><p>E-learning Website</p><img src="Images/elearning.png" alt=""></div>
+    <div class="work"><p>E-Commerce Website</p><img src="Images/online-shopping.png" alt=""></div>
+    
+</div>
+
+
+<footer>
+    <div class="socials">
+        <a href=""><img src="Images/instagram.png" alt=""></a>
+        <a href=""><img src="Images/twitter.png" alt=""></a>
+        <a href=""><img src="Images/gmail.png" alt=""></a>
+        <a href=""><img src="Images/github.png" alt=""></a>
+        <a href=""><img src="Images/linkedin.png" alt=""></a>
+    </div>
+    <p id="copyright">&copy; 2024 AMtek. All rights reserved.</p>
+
+</footer>
+
+<script>
+    window.addEventListener('scroll', function() {
+        const navbar = document.querySelector('.container-fluid');
+        if (window.scrollY > 0) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+</script>
+<script src="Javascript/script.js"></script>
+</body>
+
+</html>
