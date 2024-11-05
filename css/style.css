@@ -1,0 +1,114 @@
+body {
+    margin: auto;
+    background-color:  #d7fff1;
+}
+/* Navbar and links settings */
+#nav{
+    position: sticky;
+    top: 0;
+    padding-top: 10px;
+    z-index: 1000;
+}
+
+.container-fluid{
+    z-index: 1;
+    width: 45%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 7px 0;
+    position: static;
+    border-radius: 40px;
+    /* background-color: #77AF9C; */
+    transition: background-color 0.3s ease;
+}
+.scrolled {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent color */
+}
+
+a {
+    font-family: "Anton",sans-serif ;
+    font-size: xx-large;
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #285943;
+    font-weight:900;
+}
+
+a:first-child{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+/* work tabs */
+.workContainer{
+    display: flex;
+    width: 90%;
+    justify-content:space-evenly;
+    justify-self: center;
+}
+
+.work{
+    width: 40%;
+    height: 400px;
+    overflow: hidden;
+    background-color: #A0ECD0;
+    border-radius:  5%;
+    border: 5px solid #A0ECD0;
+    
+    
+}
+
+.work img{
+    width: 50%;
+    height: 70%;
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 14%;
+    z-index: 1;
+    
+}
+p{
+    font-family: "Anton",sans-serif;
+    font-weight:400 ;
+    font-style: normal;
+    font-size:xx-large;
+}
+.work p{
+    color: #285943;
+    margin-top: 0.5em  ;
+    margin-left: 0.5em;
+}
+
+.work:hover{
+    border: none;
+    /* box-sizing: border-box; */
+}
+/* footer */
+footer{
+    height: 200px;
+    background-color: #203023;
+    margin-top: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.socials{
+    display: flex;
+}
+.socials a{
+    background-color: #203023;
+}
+.socials a img{
+    width: 30px;
+    height: 30px;
+}
+
+#copyright{
+    margin-top: 15px;
+    color: #A0ECD0;
+    font-size: 0.9em;
+    font-family:sans-serif ;
+}
