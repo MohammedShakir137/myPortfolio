@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist\cssbootsstrap\bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=New+Amsterdam&display=swap" rel="stylesheet">
+    <link rel="icon" href="Images/briefcase.png">
+    <meta name="description" content="Portfolio of Mohammed Shakir showcasing web development projects, including e-commerce and e-learning platforms.">
+
+</head>
+<body>
+    <div id="nav">
+        <nav class="container text-center" aria-label="Main Navigation">
+            <a class="navLinks" href="index.html">Work</a>
+            <a class="navLinks" href="about.html">About</a>
+            <a class="navLinks" href="cv.html">CV</a>
+            <a class="navLinks" href="#">Contact</a>
+            <a class="navImg" href="index.html"><img src="Images/coding.png" alt=""></a>
+            <a class="navImg" href="about.html"><img src="Images/about.png" alt=""></a>
+            <a class="navImg" href="cv.html"><img src="Images/cv.png" alt=""></a>
+            <a class="navImg" href="#"><img src="Images/contact.png" alt=""></a>
+        </nav>
+    </div>
+
+<div class="workContainer">
+    <a class="work" href="https://mohammedshakir137.github.io/Bakery/" target="_blank"><p>E-Commerce Website</p><img src="Images/online-shopping.png"  alt="E-Commerce Icon"></a><br>
+    <a class="work"><p>E-learning Website</p><img src="Images/elearning.png" alt="E-Commerce Icon"></a>
+</div><br>
+<!-- <div class="workContainer">
+    <a class="work"><p>E-learning Website</p><img src="Images/elearning.png" alt="E-Commerce Icon"></a><br>
+    <a class="work"><p>E-Commerce Website</p><img src="Images/online-shopping.png" alt="E-Commerce Icon"></a>
+</div> -->
+
+<footer>
+    <div class="socials">
+        <a href="https://www.instagram.com/thatfatcoder/" target="_blank"><img src="Images/instagram.png" alt=""></a>
+        <a href="https://x.com/loremcoodess" target="_blank"><img src="Images/twitter.png" alt=""></a>
+        <a href="mailto:mohdshakirhusain137@gmail.com" target="_blank"><img src="Images/gmail.png" alt=""></a>
+        <a href="https://github.com/MohammedShakir137" target="_blank"><img src="Images/github.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/mohammed-shakir-8b3290295" target="_blank"><img src="Images/linkedin.png" alt=""></a>
+    </div>
+    <p id="copyright">&copy; 2024 AMtek. All rights reserved.</p>
+
+</footer>
+ 
+<script>
+    window.addEventListener('scroll', function() {
+        const navbar = document.querySelector('.container');
+        if (window.scrollY > 0) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+</script>
+<script src="Javascript/script.js"></script>
+</body>
+
+</html>
