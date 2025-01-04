@@ -149,6 +149,65 @@ a {
 }
 
 /* About page content */
+
+#aboutMain{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainHeader img{
+    width: 33%;
+    height: 50%;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center ;
+}
+
+#intro h1{
+    font-family:"Pacifico", serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #285943;
+    width: 90%;
+}
+
+#intro p{
+    font-family:"Anton", serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #285943;
+    width: 90%;
+}
+
+@media(max-width: 768px){
+    .mainHeader{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .mainHeader img{
+        width: 60%;
+        height: 70%;
+        margin-bottom: 15px;
+    }
+}
+
 /* CV page content */
 .cv{
     display: flex;
